@@ -67,7 +67,6 @@ class ThirdScreen extends StatelessWidget {
               child: Container(
                 height: 120,
                 width: double.infinity,
-
                 decoration:BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -93,7 +92,6 @@ class ThirdScreen extends StatelessWidget {
                             Text("30 L.E", style: TextStyle(color: Colors.black, fontSize: 20,fontWeight: FontWeight.w600),),
                             SizedBox(width: 18,),
                             Image.asset("assets/hearticon.jpg", height:45,width: 41,),
-        
                           ],
                         )
                       ],
@@ -131,7 +129,6 @@ class ThirdScreen extends StatelessWidget {
                             Text("40 L.E", style: TextStyle(color: Colors.black, fontSize: 20,fontWeight: FontWeight.w600),),
                             SizedBox(width: 18,),
                             Image.asset("assets/hearticon.jpg", height:45,width: 41,),
-        
                           ],
                         )
                       ],
@@ -139,12 +136,8 @@ class ThirdScreen extends StatelessWidget {
                 ]),
               )
               ),
-        
-        
-        
           ],
-        
-              ),
+          ),
         )
       ),
     );
