@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:task2/screens/FirstScreen.dart';
+import 'package:task2/screens/SecondScreen.dart';
+import 'package:task2/screens/ThirdScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,76 +13,16 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp (
+    return const MaterialApp (
       debugShowCheckedModeBanner: false,
-      home: Home(),
-      // home : Home2(),
-      //home: Home3(),
+      title: "App",
+      //home: FirstScreen(),
+      //home : SecondScreen(),
+      home: ThirdScreen(),
     );
   }
 }
 
-class Home extends StatelessWidget {
-  const Home({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.green,
-        title: Text("Task 1"),
-        centerTitle: true,
-        leading: Icon(
-          Icons.menu,
-          color: Colors.white,
-        ),
-      ),
-      body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children:[
-          Container(
-          margin: EdgeInsetsDirectional.only(start: 20, top: 30),
-          child: Row(
-            children:[
-              Container(
-                color: Colors.red,
-                height: 150,
-                width: 100,
-              ),
-              SizedBox(width: 70),
-              Container(
-                color: Colors.yellow,
-                height: 150,
-                width: 100,
-              ),
-            ],
-          )
-          ),
-          Container(
-            margin: EdgeInsetsDirectional.only(start: 20,bottom: 30),
-          child: Row(
-            children:[
-              Container(
-                color: Colors.red,
-                height: 150,
-                width: 100,
-              ),
-              SizedBox(width: 70),
-              Container(
-                color: Colors.orange,
-                height: 150,
-                width: 100,
-              ),
-            ],
-          )
-          )
-        ]
-        ),
-      )
-      );
-  }
-}
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
