@@ -12,7 +12,7 @@ class screen2 extends StatelessWidget {
     MyListTile(title: "Aisha", subtitle: "Hey", trailing: "7:00 AM"),
     MyListTile(title: "Marwan", subtitle: "Hello", trailing: "7/3"),
     MyListTile(title: "Nour", subtitle: "How are you?", trailing: "7/3"),
-    MyListTile(title: "Nada", subtitle: "Hey", trailing: "7/3"),
+    MyListTile(title: "Nada", subtitle: "Heyyy", trailing: "7/3"),
   ];
   @override
   Widget build(BuildContext context) {
