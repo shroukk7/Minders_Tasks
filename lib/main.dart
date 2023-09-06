@@ -58,10 +58,10 @@
 
 //Task 3
 import 'package:flutter/material.dart';
-import 'Login.dart';
-import 'Registration.dart';
-import 'forPass.dart';
-import 'homePage.dart';
+import 'Task3/Login.dart';
+import 'Task3/Registration.dart';
+import 'Task3/forPass.dart';
+import 'Task3/homePage.dart';
 
 
 void main() {
@@ -95,3 +95,4 @@ class MyApp extends StatelessWidget {
 
 
 // test
+
